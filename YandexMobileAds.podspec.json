@@ -52,12 +52,12 @@
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   },
-  "source_files": "static/YandexMobileAds.xcframework/**/*.h",
-  "public_header_files": "static/YandexMobileAds.xcframework/**/*.h",
-  "vendored_frameworks": "static/YandexMobileAds.xcframework",
-  "resources": "static/YandexMobileAds.xcframework/MobileAdsBundle.bundle",
+  "source_files": "dynamic/YandexMobileAds.xcframework/**/*.h",
+  "public_header_files": "dynamic/YandexMobileAds.xcframework/**/*.h",
+  "vendored_frameworks": "dynamic/YandexMobileAds.xcframework",
+  "resources": "dynamic/YandexMobileAds.xcframework/MobileAdsBundle.bundle",
   "preserve_paths": [
-    "static/YandexMobileAds.xcframework",
+    "dynamic/YandexMobileAds.xcframework",
     "README.md",
     "LICENSE.txt",
     "CHANGELOG.md"
