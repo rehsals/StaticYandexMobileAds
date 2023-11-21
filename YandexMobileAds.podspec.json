@@ -23,10 +23,10 @@
       "~> 28.4.0"
     ],
     "VGSLCommonCore": [
-      "~> 2.3.0"
+      "~> 2.2.0"
     ],
     "VGSLNetworking": [
-      "~> 2.3.0"
+      "~> 2.2.0"
     ],
     "YandexMobileMetrica": [
       ">= 4.0.0", 
