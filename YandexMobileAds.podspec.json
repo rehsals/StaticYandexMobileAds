@@ -1,6 +1,6 @@
 {
   "name": "YandexMobileAds",
-  "version": "6.1.0",
+  "version": "6.1.0-static",
   "swift_versions": "5.7.0",
   "authors": {
     "Yandex LLC": "mobads@yandex-team.ru"
@@ -20,17 +20,16 @@
   },
   "dependencies": {
     "DivKit": [
-      "~> 28.4.0"
+      "28.4.0-static"
     ],
     "VGSLCommonCore": [
-      "~> 2.2.0"
+      "2.2.0-static"
     ],
     "VGSLNetworking": [
-      "~> 2.2.0"
+      "2.2.0-static"
     ],
     "YandexMobileMetrica": [
-      ">= 4.0.0", 
-      "< 5.0.0"
+      "4.5.2-static"
     ]
   },
   "frameworks": [
@@ -57,10 +56,7 @@
   "vendored_frameworks": "static/YandexMobileAds.xcframework",
   "resources": "static/YandexMobileAds.xcframework/MobileAdsBundle.bundle",
   "preserve_paths": [
-    "static/YandexMobileAds.xcframework",
-    "README.md",
-    "LICENSE.txt",
-    "CHANGELOG.md"
+    "LICENSE.txt"
   ],
   "swift_version": "5.7.0"
 }
