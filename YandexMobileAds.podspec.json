@@ -1,6 +1,6 @@
 {
   "name": "YandexMobileAds",
-  "version": "6.1.0-static",
+  "version": "6.3.0",
   "swift_versions": "5.7.0",
   "authors": {
     "Yandex LLC": "mobads@yandex-team.ru"
@@ -11,25 +11,21 @@
   },
   "homepage": "https://tech.yandex.ru/mobile-ads/",
   "source": {
-    "http": "https://ads-mobile-sdk.s3.yandex.net/YandexMobileAds/6.1.0/cocoapods/fc411aec-752c-4a63-b50b-8dcf98e3624a.zip",
-    "sha256": "37ca7596dea19a35a6bc76cf951bc833ada25e57af6a04985ea5918f66f5e9b6"
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/YandexMobileAds/6.3.0/cocoapods/d75eb8da-247c-4c19-9607-66f528b70acd.zip",
+    "sha256": "8baf584506dbab765697b946ef8303b1bb40dacbaf75f0c61ca37f915280eb72"
   },
   "summary": "The Yandex Mobile Ads SDK provides mobile interfaces for Yandex Advertising Network",
+  "static_framework": true,
   "platforms": {
     "ios": "13.0"
   },
   "dependencies": {
     "DivKit": [
-      "28.4.0-static"
-    ],
-    "VGSLCommonCore": [
-      "2.2.0-static"
-    ],
-    "VGSLNetworking": [
-      "2.2.0-static"
+      "28.13.0"
     ],
     "YandexMobileMetrica": [
-      "4.5.2-static"
+      ">= 4.0.0",
+      "< 5.0.0"
     ]
   },
   "frameworks": [
@@ -54,9 +50,16 @@
   "source_files": "static/YandexMobileAds.xcframework/**/*.h",
   "public_header_files": "static/YandexMobileAds.xcframework/**/*.h",
   "vendored_frameworks": "static/YandexMobileAds.xcframework",
-  "resources": "static/YandexMobileAds.xcframework/MobileAdsBundle.bundle",
+  "resources": [
+    "static/YandexMobileAds.xcframework/MobileAdsBundle.bundle",
+    "PrivacyInfo.xcprivacy"
+  ],
   "preserve_paths": [
-    "LICENSE.txt"
+    "static/YandexMobileAds.xcframework",
+    "LICENSE.txt",
+    "PrivacyInfo.xcprivacy",
+    "README.md",
+    "CHANGELOG.md"
   ],
   "swift_version": "5.7.0"
 }
