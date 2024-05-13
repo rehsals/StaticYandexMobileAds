@@ -20,13 +20,13 @@
   },
   "dependencies": {
     "DivKit": [
-      "28.4.0-static"
+      "28.4.1"
     ],
     "VGSLCommonCore": [
-      "2.2.0-static"
+      "2.2.1"
     ],
     "VGSLNetworking": [
-      "2.2.0-static"
+      "2.2.1"
     ],
     "YandexMobileMetrica": [
       "4.5.2-static"
