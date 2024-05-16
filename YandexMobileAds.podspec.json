@@ -1,6 +1,6 @@
 {
   "name": "YandexMobileAds",
-  "version": "6.1.0-static",
+  "version": "6.4.1",
   "swift_versions": "5.7.0",
   "authors": {
     "Yandex LLC": "mobads@yandex-team.ru"
@@ -11,41 +11,36 @@
   },
   "homepage": "https://tech.yandex.ru/mobile-ads/",
   "source": {
-    "http": "https://ads-mobile-sdk.s3.yandex.net/YandexMobileAds/6.1.0/cocoapods/fc411aec-752c-4a63-b50b-8dcf98e3624a.zip",
-    "sha256": "37ca7596dea19a35a6bc76cf951bc833ada25e57af6a04985ea5918f66f5e9b6"
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/YandexMobileAds/6.4.1/cocoapods/4c35f97b-dbcf-4250-8567-f72d30cbba10.zip",
+    "sha256": "e273e32d484a2052ead978528b86dc4e6984ce8766bd050c94fe89be6b0610f5"
   },
   "summary": "The Yandex Mobile Ads SDK provides mobile interfaces for Yandex Advertising Network",
+  "static_framework": true,
   "platforms": {
     "ios": "13.0"
   },
   "dependencies": {
     "DivKit": [
-      "28.4.1"
-    ],
-    "VGSLCommonCore": [
-      "2.2.1"
-    ],
-    "VGSLNetworking": [
-      "2.2.1"
+      "28.13.0"
     ],
     "YandexMobileMetrica": [
       "4.5.2-static"
     ]
   },
   "frameworks": [
-    "UIKit",
-    "Foundation",
-    "CoreTelephony",
-    "CoreLocation",
-    "CoreGraphics",
+    "AVFoundation",
     "AdSupport",
+    "CoreGraphics",
+    "CoreImage",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreTelephony",
+    "Foundation",
+    "Network",
+    "QuartzCore",
     "StoreKit",
     "SystemConfiguration",
-    "QuartzCore",
-    "AVFoundation",
-    "CoreImage",
-    "CoreMedia",
-    "Network"
+    "UIKit"
   ],
   "weak_frameworks": "WebKit",
   "xcconfig": {
@@ -54,9 +49,17 @@
   "source_files": "static/YandexMobileAds.xcframework/**/*.h",
   "public_header_files": "static/YandexMobileAds.xcframework/**/*.h",
   "vendored_frameworks": "static/YandexMobileAds.xcframework",
+  "resource_bundles": {
+    "MobileAdsCorePrivacyInfo": [
+      "PrivacyInfo.xcprivacy"
+    ]
+  },
   "resources": "static/YandexMobileAds.xcframework/MobileAdsBundle.bundle",
   "preserve_paths": [
-    "LICENSE.txt"
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "PrivacyInfo.xcprivacy",
+    "README.md"
   ],
   "swift_version": "5.7.0"
 }
