@@ -1,6 +1,6 @@
 {
   "name": "YandexMobileAds",
-  "version": "6.1.0-static",
+  "version": "6.1.0",
   "swift_versions": "5.7.0",
   "authors": {
     "Yandex LLC": "mobads@yandex-team.ru"
@@ -20,13 +20,13 @@
   },
   "dependencies": {
     "DivKit": [
-      "28.4.1"
+      "28.4.1-source"
     ],
     "VGSLCommonCore": [
-      "2.2.1"
+      "2.2.1-source"
     ],
     "VGSLNetworking": [
-      "2.2.1"
+      "2.2.1-source"
     ],
     "YandexMobileMetrica": [
       "4.5.2-static"
